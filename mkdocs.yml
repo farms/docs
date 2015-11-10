@@ -1,0 +1,11 @@
+site_name: FARMS Documentation
+site_description: Ferramenta de Apoio à Revisão e ao Mapeamento Sistemático
+site_url: http://farms.github.io/
+site_repo: https://github.com/farms/docs/
+repo_name: GitHub
+site_favicon: favicon.ico
+pages:
+- Início: index.md
+- Especificações: specifications.md
+- Contribuindo: contributing.md
+theme: readthedocs
