@@ -1,12 +1,12 @@
-# Documentação FARMS
-
 FARMS significa Ferramenta de Apoio à Revisão e ao Mapeamento Sistemático e
 trata-se de uma aplicação web que visa facilitar o trabalho da comunidade
 acadêmica em seus projetos de pesquisa, fornecendo uma solução colaborativa para
 o levantamento das bibliografias a respeito de um determinado tema, em específico
 , a realização de revisões sistemáticas e mapeamentos sistemáticos.
 
-## Começando
+[TOC]
+
+# Começando
 
 A priore, nosso desejo é disponibilizar um serviço online totalmente gratuito
 , porém a ferramenta ainda não está pronta para ser disponibilizada à comunidade
@@ -25,19 +25,19 @@ Você precisará dos seguintes itens:
 
 ___
 
-### Instalação
+## Instalação
 
-Obtenha os códigos da [aplicação web](https://github.com/farms/farms-webapp)
+1. Obtenha os códigos da [aplicação web](https://github.com/farms/farms-webapp)
 em nosso repositório no GitHub no link a seguir:
 [farms-webapp](https://github.com/farms/farms-webapp/archive/master.zip).
 Ou clone por meio do git através da linha de comando utilizando
 ``git clone https://github.com/farms/farms-webapp.git``
 
-Também obtenha os códigos do [webservice](https://github.com/farms/farms-webservice)
+2. Também obtenha os códigos do [webservice](https://github.com/farms/farms-webservice)
 no link a seguir: [farms-webservice](https://github.com/farms/farms-webservice/archive/master.zip).
 Ou clone por meio do git utilizando o comando ``https://github.com/farms/farms-webservice.git``
 
-Nos arquivos do webservice, navegue até o diretório ``/src/main/resourcers/META-INF/``
+3. Nos arquivos do webservice, navegue até o diretório ``/src/main/resourcers/META-INF/``
 e abra o arquivo ``persistence.xml``. Em seguida edite-o alterando as linhas a
 seguir substituindo os valores 'root' pelas suas credenciais de acesso ao
 PostgreSQL.
@@ -48,14 +48,17 @@ PostgreSQL.
 ```
 ___
 
-### Executando
+## Executando
 
 Após feito o download dos arquivos e inserido as credenciais de acesso ao banco
 de dados você poderá executar o projeto.
 
 1. Crie uma base de dados com o nome Farms em seu PostgreSQL.
+
 2. Execute o WebService. Neste momento, as tabelas deverão ser automagicamente
 criadas em seu banco de dados.
+
 3. Inicie o WebApp através do servidor Tomcat.
+
 4. Pronto! Agora basta acessar o endereço no qual o Apache Tomcat está executando
 a aplicação. Normalmente localhost:8080.
